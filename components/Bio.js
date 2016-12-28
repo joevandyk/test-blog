@@ -23,7 +23,9 @@ class Bio extends React.Component {
             height: rhythm(2),
           }}
         />
-        Written by <strong>{config.authorName}</strong> who lives and works in Seattle at Tanga. <a href="https://twitter.com/joevandyk">You should probably not follow him on Twitter</a>
+          Written by <strong>{config.authorName}</strong> who lives in Seattle and works
+          at <a href="https://www.tanga.com">Tanga</a>.
+          You can follow him at <a href="https://twitter.com/joevandyk">@joevandyk</a>.
       </p>
     )
   }
